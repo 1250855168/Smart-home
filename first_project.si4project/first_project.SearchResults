@@ -1,0 +1,2 @@
+---- TIM_ClockDivision Matches (1 in 0 files) ----
+{anonTIM_TimeBaseInitTypeDef} in stm32f10x_tim.h (LIB\inc) :   uint16_t TIM_ClockDivision;     /*!< Specifies the clock division.
