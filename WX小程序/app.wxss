@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.switch-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.value {
+  font-weight: bold;
+}

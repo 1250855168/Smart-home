@@ -1,0 +1,29 @@
+<!-- pages/index/index.wxml -->
+
+<view class="container">
+  <view class="data-item">
+    <text class="label">温度：</text>
+    <text class="value">{{ temperature }}°C</text>
+  </view>
+  <view class="data-item">
+    <text class="label">湿度：</text>
+    <text class="value">{{ humidity }}%</text>
+  </view>
+  <view class="data-item">
+    <text class="label">光照度：</text>
+    <text class="value">{{ lightIntensity }} Lux</text>
+  </view>
+
+  <view class="switch-item">
+    <text class="label">灯光开关：</text>
+    <switch bindchange="switchLight" checked="{{ lightStatus }}"></switch>
+  </view>
+  <view class="switch-item">
+    <text class="label">风扇开关：</text>
+    <switch bindchange="switchFan" checked="{{ fanStatus }}"></switch>
+  </view>
+  <view class="switch-item">
+    <text class="label">报警器开关：</text>
+    <switch bindchange="switchAlarm" checked="{{ alarmStatus }}"></switch>
+  </view>
+</view>
